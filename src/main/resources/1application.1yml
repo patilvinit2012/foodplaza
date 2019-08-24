@@ -1,0 +1,31 @@
+#debug=true
+#logging.level.org.springframework.web=INFO
+server:
+   servlet:
+      context-path: /foodplaza
+
+#AOP configuration
+aop:
+   loggerAdvice:
+      enable: true
+   timerAdvice:
+      enable: true
+
+#application config
+foodservice:
+   folder:
+      imageupload: D:\\foodImages\\
+
+#Mvc configuration
+spring:
+   mvc:
+      view:
+         prefix: /WEB-INF/jsps/
+         suffix: .jsp
+
+#Hibernate Search
+hibernate:
+   search:
+      default:
+         directory_provider: filesystem
+         indexBase: /data/index/default

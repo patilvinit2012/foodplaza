@@ -1,0 +1,10 @@
+sandeep Sir doubts:
+
+1. how to store images in db? TO store images in other server and save link in db?
+4. Fetching image from DB
+
+
+
+----------Done
+2. While saving food:- java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.vinit.Foodplazabootweb.model.Food.foodId to com.vinit.Foodplazabootweb.model.Food
+3. Getting object[] while fething roles.
